@@ -1,0 +1,28 @@
+{
+  "name": "clsystems/ac-api-client",
+  "type": "library",
+  "description": "AdCell api library",
+  "keywords": [
+    "clsystems",
+    "affiliate",
+    "adcell",
+    "api",
+    "client"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jeroen Guyt - CLSystems",
+      "email": "info@clsystems.nl"
+    }
+  ],
+  "autoload": {
+    "psr-4": { "CLSystems\\Adcell\\": "src/" }
+  },
+  "require": {
+    "php": ">=5.3.0",
+    "kriswallsmith/buzz": ">=v0.10 <=0.16.1",
+    "psr/log": "~1.0",
+    "ext-json": "*"
+  }
+}
