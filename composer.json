@@ -1,7 +1,7 @@
 {
   "name": "clsystems/ac-api-client",
   "type": "library",
-  "description": "AdCell api library",
+  "description": "Adcell API library",
   "keywords": [
     "clsystems",
     "affiliate",
@@ -20,9 +20,9 @@
     "psr-4": { "CLSystems\\Adcell\\": "src/" }
   },
   "require": {
-    "php": ">=5.3.0",
-    "kriswallsmith/buzz": ">=v0.10 <=0.16.1",
-    "psr/log": "~1.0",
-    "ext-json": "*"
+    "php": ">=7.3",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "guzzlehttp/guzzle": "^7.2"
   }
 }
